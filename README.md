@@ -1,12 +1,22 @@
-# React + Vite
+# Тестовое задания для компании Freematiq
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Обо мне
+Здравствуйте, меня зовут Алена, я начинающий Front-end разработчик.
+## Описание проекта
 
-Currently, two official plugins are available:
+Я реализовала одностраничное React-приложение для конвертации валют в реальном времени. Приложение позволяет пользователю:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ввести сумму для конвертации.
+- Выбрать валюту, из которой и в которую будет производиться перевод (поддерживается более 100 валют).
+- Получить актуальный курс обмена и результат конвертации.
+- Быстро менять направления конвертации с помощью кнопки "swap".
 
-## Expanding the ESLint configuration
+Курсы валют получаются через внешний API. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Использованные технологии
+React 
+
+Vite 
+
+ESLint и Prettier
+
